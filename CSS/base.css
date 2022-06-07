@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../RESSOURCES/POLICES/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+    url('../RESSOURCES/POLICES/montserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../RESSOURCES/POLICES/montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+    url('../RESSOURCES/POLICES/montserrat/montserrat-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../RESSOURCES/POLICES/montserrat/montserrat-italic-webfont.woff2') format('woff2'),
+    url('../RESSOURCES/POLICES/montserrat/montserrat-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../RESSOURCES/POLICES/montserrat/montserrat-bolditalic-webfont.woff2') format('woff2'),
+    url('../RESSOURCES/POLICES/montserrat/montserrat-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../RESSOURCES/POLICES/montserrat/montserrat-light-webfont.woff2') format('woff2'),
+    url('../RESSOURCES/POLICES/montserrat/montserrat-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../RESSOURCES/POLICES/montserrat/montserrat-lightitalic-webfont.woff2') format('woff2'),
+    url('../RESSOURCES/POLICES/montserrat/montserrat-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.75rem;
+
+    padding: 0;
+    margin: 0; /* Par defaut, le body a du margin, il faut le mettre a zero pour que ca touche les bords */
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99999999999999999;
+
+    /*height : 5rem;*/
+    /*width: 100%;*/
+    padding: 0.5rem;
+
+    text-transform: uppercase;
+    letter-spacing: 8px;
+
+    background: #efefef;
+}
+
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul > li {
+    font-weight: bold;
+    list-style: none;
+    margin: 0 1.2rem;
+}
+
+ul > li > a {
+    position: relative;
+    color: #7C8587;
+    text-decoration: none;
+}
+
+ul > li > a:after {
+    content: "";
+
+    display: block;
+
+    position: absolute;
+
+    bottom: -0.75rem;
+    left: 0;
+
+    width: 0;
+    height: 0.4rem;
+
+    background-color: #c4204b;
+
+    transition: width 250ms;
+}
+
+ul > li > a:hover:after {
+    width: 3rem;
+}
+
+h2 {
+    position: relative;
+
+    text-transform: uppercase;
+    letter-spacing: 8px;
+
+    margin-bottom: 3.0rem;
+}
+
+h2:after {
+    content: "";
+
+    display: block;
+
+    position: absolute;
+
+    bottom: -1.2rem;
+    left: 0;
+
+    width: 5rem;
+    height: 0.4rem;
+
+    background-color: #c4204b;
+}
+
+section > div > article > h4 {
+    overflow: hidden;
+}
+
+section > div > article > h4 > a {
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+
+section > div > article > h4 > a:after {
+    content: "";
+
+    display: block;
+
+    position: absolute;
+
+    bottom: -0.45rem;
+    left: -0.42rem;
+
+    width: 0;
+    height: 0.4rem;
+
+    background-color: #c4204b;
+
+    transition: width 250ms;
+
+    border-radius: 0 0 0 8px;
+}
+
+section > div > article > h4 > a:hover:after {
+    width: 3.42rem;
+}
+
+footer {
+    background-color: #5d7139;
+    color: #efefef;
+
+    margin-bottom: 1.3em;
+    padding: 0.7rem;
+}
