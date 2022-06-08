@@ -103,6 +103,13 @@ section > div > article {
     background-repeat: no-repeat;
 }
 
+.dino {
+    background-image: url("../RESSOURCES/PHOTOS/Dino-Bot.jpg");
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /*.fond {*/
 /*    position: absolute;*/
 /*    top: 0;*/
