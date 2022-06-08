@@ -73,26 +73,26 @@ nav {
     background: #efefef;
 }
 
-ul {
+nav > ul {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: center;
 }
 
-ul > li {
+nav > ul > li {
     font-weight: bold;
     list-style: none;
     margin: 0 1.2rem;
 }
 
-ul > li > a {
+nav > ul > li > a {
     position: relative;
     color: #7C8587;
     text-decoration: none;
 }
 
-ul > li > a:after {
+nav > ul > li > a:after {
     content: "";
 
     display: block;
@@ -110,7 +110,7 @@ ul > li > a:after {
     transition: width 250ms;
 }
 
-ul > li > a:hover:after {
+nav > ul > li > a:hover:after {
     width: 3rem;
 }
 

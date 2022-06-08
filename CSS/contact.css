@@ -5,3 +5,31 @@ header {
 main {
     padding: 2rem 5rem
 }
+
+li {
+    list-style: none;
+}
+
+section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+li > div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+li > div > img {
+    max-height: 2.5rem;
+
+    margin-right: 1rem;
+}
+
+li > div > p > a {
+    text-decoration: none;
+    color: black;
+}
