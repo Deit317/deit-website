@@ -14,6 +14,7 @@ section {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 li > div {
@@ -32,4 +33,8 @@ li > div > img {
 li > div > p > a {
     text-decoration: none;
     color: black;
+}
+
+iframe {
+    border-radius: 8px;
 }
