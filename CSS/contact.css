@@ -31,6 +31,7 @@ li > div > img {
 }
 
 li > div > p > a {
+    position: relative;
     text-decoration: none;
     color: black;
 }
@@ -51,6 +52,29 @@ li > div > p > a:before {
     height: 1rem;
 
     margin-right: 0.4rem;
+}
+
+li > div > p > a:after {
+    content: "";
+    
+    display: block;
+    
+    position: absolute;
+
+    bottom: -0.75rem;
+    left: 1.4rem;
+
+    width: 0;
+    height: 0.4rem;
+
+    background-color: #c4204b;
+
+    transition: width 250ms;
+    
+}
+
+li > div > p > a:hover:after {
+    width: 3rem;
 }
 
 iframe {

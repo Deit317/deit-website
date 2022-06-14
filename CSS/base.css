@@ -178,5 +178,7 @@ footer {
     color: #efefef;
 
     margin-bottom: 1.3em;
-    padding: 0.7rem;
+    padding: 0.2rem;
+    font-size: 1rem;
+    text-align: center;
 }

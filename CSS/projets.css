@@ -110,6 +110,19 @@ section > div > article {
     background-repeat: no-repeat;
 }
 
+.yams {
+    background-image: url("../RESSOURCES/PHOTOS/yams.jpg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cavalier {
+    background-image: url("../RESSOURCES/PHOTOS/cavalier.jpg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 /*.fond {*/
 /*    position: absolute;*/
 /*    top: 0;*/

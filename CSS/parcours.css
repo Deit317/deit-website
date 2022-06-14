@@ -87,10 +87,26 @@ section > div > article {
     padding: 1rem 3rem 0rem 3rem;
 }
 
-.perso {
-    background-image: url("../RESSOURCES/PHOTOS/BANNER.jpg");
+.id_int {
+    background-image: url("../RESSOURCES/PHOTOS/ID-INT.jpg");
 
     background-size: 101%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.but {
+    background-image: url("../RESSOURCES/PHOTOS/IUT-LAN.jpg");
+
+    background-size: 105%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lycee {
+    background-image: url("../RESSOURCES/PHOTOS/DDL.jpg");
+
+    background-size: 120%;
     background-position: center;
     background-repeat: no-repeat;
 }
