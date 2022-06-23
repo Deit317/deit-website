@@ -211,3 +211,28 @@ footer {
     font-size: 1rem;
     text-align: center;
 }
+
+footer > p > a {
+    position: relative;
+
+    text-decoration: none;
+    color: #efefef;
+}
+
+footer > p > a:before {
+    content: "";
+    display: inline-block;
+
+    background-image: url("../RESSOURCES/ICON/icon_linked_64.png");
+    background-size: 100%;
+
+    position: relative;
+
+    left: 0;
+    top: 0;
+
+    width: 1rem;
+    height: 1rem;
+
+    margin-right: 0.4rem;
+}
