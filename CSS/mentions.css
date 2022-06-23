@@ -1,0 +1,202 @@
+@keyframes glich-anim1 {
+    7% {
+        transform: none;
+    }
+
+    10% {
+        transform: translate(6px, -2px);
+    }
+
+    13% {
+        transform: none;
+    }
+
+    20% {
+        transform: none;
+    }
+
+    23% {
+        transform: translate(-12px, -7px);
+    }
+
+    26% {
+        transform: none;
+    }
+
+    40% {
+        transform: none;
+    }
+
+    43% {
+        transform: translate(10px, -9px);
+    }
+
+    46% {
+        transform: none;
+    }
+
+    65% {
+        transform: none;
+    }
+
+    68% {
+        transform: translate(7px, 5px);
+    }
+
+    71% {
+        transform: none;
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes glich-anim2 {
+    7% {
+        transform: none;
+    }
+
+    10% {
+        transform: translate(-6px, 2px);
+    }
+
+    13% {
+        transform: none;
+    }
+
+    20% {
+        transform: none;
+    }
+
+    23% {
+        transform: translate(12px, 7px);
+    }
+
+    26% {
+        transform: none;
+    }
+
+    40% {
+        transform: none;
+    }
+
+    43% {
+        transform: translate(-10px, 9px);
+    }
+
+    46% {
+        transform: none;
+    }
+
+    65% {
+        transform: none;
+    }
+
+    68% {
+        transform: translate(-7px, -5px);
+    }
+
+    71% {
+        transform: none;
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes distort-anim {
+    20% {
+        transform: none;
+    }
+
+    23% {
+        transform: skew(5deg, -5deg) translate(10px, 5px);
+    }
+
+    26% {
+        transform: none;
+    }
+
+    40% {
+        transform: none;
+    }
+
+    43% {
+        transform: skew(5deg, -10deg) translate(-5px, 2px);
+    }
+
+    46% {
+        transform: none;
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+body {
+    background-color: black;
+}
+
+.bloc {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.gitched-bloc {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glitched, .invisible {
+    font-size: 250px;
+    line-height: 1.1;
+    color: #fff;
+}
+
+.glitched {
+    position: absolute;
+    top: 0;
+    opacity: 0.9;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.glitched:nth-child(2) {
+    color: #f03e3e;
+    animation: distort-anim 3s infinite;
+}
+
+.glitched:nth-child(3) {
+    color: #3df0cf;
+    animation: glich-anim2 3s infinite;
+}
+
+.glitched:nth-child(4) {
+    color: #f1f1f1;
+    animation: glich-anim1 3s infinite;
+}
+
+.txt {
+    color: #f1f1f1;
+    font-size: 20px;
+}
+
+p > a {
+    color: #c4204b;
+}
