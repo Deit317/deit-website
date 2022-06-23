@@ -6,12 +6,12 @@ main {
     padding: 2rem 5rem
 }
 
-h3 {
-    position: relative;
+/*h3 {*/
+/*    position: relative;*/
 
-    text-transform: uppercase;
-    letter-spacing: 8px;
-}
+/*    text-transform: uppercase;*/
+/*    letter-spacing: 8px;*/
+/*}*/
 
 /*h3:after {*/
 /*    content: "";*/
@@ -29,25 +29,25 @@ h3 {
 /*    background-color: black;*/
 /*}*/
 
-.title-with-bar {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-}
+/*.title-with-bar {*/
+/*    display: flex;*/
+/*    flex-flow: row nowrap;*/
+/*    justify-content: flex-start;*/
+/*    align-items: center;*/
+/*}*/
 
-.title-with-bar > h3 {
-    white-space: nowrap;
-}
+/*.title-with-bar > h3 {*/
+/*    white-space: nowrap;*/
+/*}*/
 
-.title-with-bar > span {
-    margin: 0 1.5rem;
+/*.title-with-bar > span {*/
+/*    margin: 0 1.5rem;*/
 
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: black;
-}
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: 1px;*/
+/*    background-color: black;*/
+/*}*/
 
 section > div {
     display: flex;
